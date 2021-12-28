@@ -32,3 +32,11 @@ Informação de alteração
 
 ## GitFlow
 Fluxo do Git
+### Branchs
+são ramificações / versões paralelas
+- main ou master (produção / projeto publicado)
+- develop (projeto em desenvolvimento)
+- DOD Definition Of Done (critérios de aceite)
+- versionamento (0.x.x. ... 1.0)
+- git checkout -b dev
+
