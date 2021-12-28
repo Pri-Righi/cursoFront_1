@@ -38,5 +38,9 @@ são ramificações / versões paralelas
 - develop (projeto em desenvolvimento)
 - DOD Definition Of Done (critérios de aceite)
 - versionamento (0.x.x. ... 1.0)
-- git checkout -b dev
 
+git checkout -b dev (cria uma branch)
+git checkout master (mudar de branch)
+
+### Merge
+Mescla de branchs
