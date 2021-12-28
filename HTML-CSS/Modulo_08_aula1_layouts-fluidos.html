@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Layouts Fluidos</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+        <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"> 
+
+        <!-- Estilos Personalizados -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/layouts-fluidos.css">
+    
+</head>
+<body>
+	<header>
+        <h2>Curso Front-end</h2>
+        <p>Do Zero ao Pro</p>
+        <div>
+            <h2>-------- EBAC --------</h2>
+        </div>
+        <h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+    </header>
+
+    <h1>Layouts Fluidos</h1>
+    <p>Adapta a largura da tela</p>
+
+    <section> 
+
+        	<nav>
+				<h3>Aulas</h3>
+				<ul class="navegacao">
+					<li id="primeiro-link"><a href="Homepage.html">Perfil &#127968</a></li>
+					<li><a href="Modulo_07_tabela.html">Finanças &#128178</a></li>
+					<li><a href="Modulo_04_aula2_formulario.html">Contato &#128235</a></li>
+					<li><a href="Modulo_08_aula2_elementos_graficos.html">Graficos</a></li>
+                    <li><a href="Modulo_08_aula1_layouts-fluidos.html">Layouts</a></li>
+				</ul>
+
+				<h3>Redes Sociais</h3>
+				<ul class="navegacao">
+					<li><a href="https://www.facebook.com/priscila.righi.1/">Facebook</a></li>
+					<li><a href="https://www.instagram.com/priscilarighi88/">@priscilarighi88</a></li>
+				</ul>
+			</nav>
+
+        <h2>100% width / largura</h2>
+
+        <div class="width-100">
+
+            <article>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum, id doloremque. Quibusdam, odit enim porro beatae itaque dolore velit voluptas vero soluta reiciendis accusamus quod accusantium nesciunt nobis fuga earum.
+
+                <div class="fixed-width">
+                    largura fixa
+                </div>
+
+
+                <div class="background">
+                    Repetir imagem na horizontal
+                </div>
+
+                <div>
+                    <picture>
+                        <source media="(min-width: 280px)" srcset="./imagens/coffee-sm.jpg">
+                        <source media="(min-width: 600px)" srcset="./imagens/coffee-square.jpg">
+                        <img srcset="./imagens/coffee.jpg" alt="Café">
+                    </picture>
+                </div>
+
+            </article>
+
+        </div>
+    
+    </section>
+    
+    <footer>
+        <p>Desenvolvido por Priscila</p>
+    </footer>
+
+</body>
+</html>

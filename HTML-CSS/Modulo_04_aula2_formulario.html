@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Formulário Fale Conosco</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+			<!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+
+			<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet">
+
+			<!-- Estilos Personalizados -->
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end</h2>
+			<p>Do Zero ao Pro</p>
+			<div>
+				<h2>-------- EBAC --------</h2>
+			</div>
+			<h5>Escola Britânica de Artes Criativas e Tecnologia</h5>
+		</header>
+
+		<section>
+
+			<nav>
+				<h3>Aulas</h3>
+				<ul class="navegacao">
+					<li id="primeiro-link"><a href="Homepage.html">Perfil &#127968</a></li>
+					<li><a href="Modulo_07_tabela.html">Finanças &#128178</a></li>
+					<li><a href="Modulo_04_aula2_formulario.html">Contato &#128235</a></li>
+					<li><a href="Modulo_08_aula2_elementos_graficos.html">Graficos</a></li>
+                </ul>
+
+				<h3>Redes Sociais</h3>
+				<ul class="navegacao">
+					<li><a href="https://www.facebook.com/priscila.righi.1/">Facebook</a></li>
+					<li><a href="https://www.instagram.com/priscilarighi88/">@priscilarighi88</a></li>
+				</ul>
+			</nav>
+
+			<article>
+				
+				<h1>Contatos</h1>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post"> <!-- PADRÃO DE ENVIO: o método "get" é o método padrão na qual ele adiciona na URL tudo o que foi preenchido no formulário em forma de parâmetro URL. Definindo o método "post" os dados não aparecem na URL, não é adicionado nenhum parâmetro URL. Por padrão, não se utiliza muito o "get" pois se o usuário preenche alguma informação sigilosa é preferível que oenvio de dados seja mandado "por debaixo dos panos" sem ser exibidos. O back-end trata as informações passadas no formulário-->
+					
+					<div>	
+						<label for="nome">Nome</label>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label>
+						<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>
+
+					<div>						
+						<label for="mensagem">Mensagens</label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p>
+							<label>Qual linguagem você prefere?</label>
+							<input type="radio" name="linguagens" value="html"> HTML
+							<input type="radio" name="linguagens" value="css"> CSS
+							<input type="radio" name="linguagens" value="js"> JS
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label>Quais linguagens você conhece?</label>
+							<input type="checkbox" name="linguagens" value="html"> HTML
+							<input type="checkbox" name="linguagens" value="css"> CSS
+							<input type="checkbox" name="linguagens" value="js"> JS
+						</p>
+					</div>
+
+					<div>
+						<label>Qual a sua cor favorita?</label>
+						<select>
+							<option value="azul">Azul</option>
+							<option value="verde">Verde</option>
+							<option value="vermelho">Vermelho</option>
+						</select>
+					</div>
+
+					<div>
+						<input type="submit">
+					</div>
+
+				</form>
+
+			</article>
+
+		</section>
+
+		<footer>
+			<p>Desenvolvido por Priscila</p>
+		</footer>
+		
+	</body>
+</html>
