@@ -334,9 +334,7 @@ footer p {
 		width: 500vw;
 		min-width: unset;
 	}
-
 }
-
 
 /*Smartphone*/
 @media (max-width: 425px) {
@@ -346,21 +344,4 @@ footer p {
 		width: 100%;
 		min-width: 320px;
 	}
-
-	.table-action thead {
-		display: none;
-	}
-
-	.table-action tr {
-		border-bottom: 1px solid #dddddd;
-	}
-	
-	.table-action td {
-		border: 0;
-	}
-
-	.table-action td:not(:first-child) {
-		display: block;
-	}
 }
-
